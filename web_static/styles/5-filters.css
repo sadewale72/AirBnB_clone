@@ -1,0 +1,61 @@
+/* Filters style */
+.filters {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 70px;
+    width: 100%;
+}
+
+/* locations and amenities */
+.locations,
+.amenities {
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+}
+
+.locations{
+    border-right: #DDDDDD 1px solid;
+    float: left;
+}
+
+
+/* Styles headers 3-4 */
+.filters h3,
+.filters h4{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.locations h3,
+.amenities h3{
+    font-weight: 600;
+    padding: 15.5px 0 0 30px;
+}
+
+.locations h4,
+.amenities h4{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4.5px 0 12px 30px;
+}
+
+
+/* Search button style */
+.filters button {
+    background: #ff5a5f;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    float: right;
+    font-size: 18px;
+    height: 48px;
+    margin: 12px 30px;
+    width: 20%;
+}
+  
+/* Search button hover opacity */
+.filters button:hover {
+    background-color: rgba(255, 90, 95, .9);
+}
